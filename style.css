@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    color:aliceblue;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    background-image: url(https://images.unsplash.com/photo-1560985857-a66a2a5e2d27?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+header {
+    background: #555555;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    display: none;
+}
+
+section#home {
+    display: block;
+}
+
+footer {
+    background: #555555;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
